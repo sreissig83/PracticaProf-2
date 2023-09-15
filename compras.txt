@@ -1,0 +1,9 @@
+comestibles
+pan
+azucar
+sal
+
+agregado 
+limpieza
+dtergente
+escale
