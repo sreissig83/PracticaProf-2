@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>C.V. Reissig Sebastian</title>
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <style>
+            .datos-cabezera{
+                display: grid;
+                grid-template-columns: 2;
+                height: 100px;
+                background-color: aliceblue;
+
+            }
+            .datos-header{
+                grid-column: 1;
+                align-content: center;
+            }
+            .foto-header{
+                grid-column: 2;
+                align-content: center ;
+                justify-items: center;
+
+            }
+            .datos-principales{
+                display: grid;
+                grid-template-columns: 2;
+                grid-template-rows: 2;
+                align-content: center;
+                justify-items: auto;
+            }
+            .datos-personales{
+                grid-column: 1;
+                grid-row: 1;
+            }
+            .datos-educacion{
+                grid-column: 2;
+                grid-row: 1;
+            }
+            .datos-laborales{
+                grid-column: 1;
+                grid-row: 2;
+            }
+            .datos-habilidades{
+                grid-column: 2;
+                grid-row: 2;
+            }
+        </style>
+    </head>
+    <body>
+        <header class="datos-cabezera">
+                <div class="datos-header">
+                    <h2>Sebastian A. Reissig</h2>
+                    <h3>Tec. Univ. en Analisis y Desarrollo de Software</h3>
+                </div>
+                <div class="foto-header" >        
+                    <img class="foto-cv" alt="fotocurriculum" src="img/perfil-cv.jpg" style="height: 100px; width: 100px; border-radius: 0;">
+        </header>
+        <section class="principal">
+            <article class="datos-principales">
+                <div class="datos-personales">
+                            <h2>Datos Personales</h2>
+                            <ul>
+                                <li><p>Telefono: 011-36410149</p></li>
+                                <li><p>Correo: sreissig83@gmail.com</p></li>
+                                <li><p>Formosa, Argentina</p></li>
+                            </ul>
+                </div>
+                <div class="datos-educacion">        
+                    <h2>Educacion</h2>
+                    <ul>
+                        <li>
+                            <p>Educacion Primaria: Instituto Domingo Faustino Sarmiento</p>
+                        </li>
+                        <li>
+                            <p>Educacion Secundaria: Instituto Domingo Faustino Sarmiento</p>
+                        </li>
+                        <li>
+                            <p>Educacion universitaria: >Tecnico en analisis y desarrollo de software, Universidad Nacional de Formosa</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="datos-laborales">
+                    <h2>Experiencia Laboral</h2>
+                    <ul>
+                        <li><p>Ministerio de Desarrollo Social de la Naciona, 2003 - Actual</p></li>
+                    </ul>
+                </div>
+                <div class="datos-habilidades">
+                    <h2>Habilidades</h2>
+                    <ul>
+                        <li><p>Lenguajes de Programacion: html, css, js, nodejs, php, python</p></li>
+                        <li><p>Arquitectura de Redes</p></li>
+                        <li><p>Arquitectura de Redes</p></li>
+                        <li><p>Arquitectura de Redes</p></li>
+                        <li><p>DevOp</p></li>
+                        <li><p>Arquitectura de Redes</p></li>
+                        <li><p>BackupOp</p></li>
+                    </ul>
+                </div>
+            </article>
+        </section>    
+        <footer>
+                        <p>Si quieres contactarte completa el siguiente formulario:<p>
+
+                        <label for="">Ingresa tu nombre completo:</label> 
+                        <input type="text" name="nombrecompleto">
+                    
+                        <input type="submit" value="Enviar la información">
+                    
+                    </p>
+
+                    Esto es un link de buscador "google"
+                    <a href="https://www.google.com.ar/"> Ir a Formulario de Google</a>
+                    <!-- <br> salta un espacio -->
+                    <br>
+                    <br>
+                    Ir a mis proyectos: 
+                    <br>
+                    <br>
+                    <a href="paginas.html" target="_blank"> Proyectos </a>
+                    
+                </p>
+                <p> <b>Sebastian A. Reissig - Derechos reservados 2023</b> </p>
+        </footer>    
+    </body>
+</html>
